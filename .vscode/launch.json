@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Debug Behave Tests",
+            "type": "python",
+            "request": "launch",
+            "module": "behave",
+            "args": ["features"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Debug pytest",
+            "type": "python",
+            "request": "launch",
+            "module": "pytest",
+            "args": ["tests"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
